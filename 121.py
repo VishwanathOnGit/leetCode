@@ -1,5 +1,4 @@
-class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
+def maxProfit(prices):
         buy = prices[0]
         profit = 0
 
@@ -10,3 +9,5 @@ class Solution:
                 profit = prices[i] - buy
 
         return profit
+
+print(maxProfit([7,1,5,3,6,4]))
