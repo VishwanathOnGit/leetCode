@@ -23,3 +23,9 @@ print(isPalindrome(123456789))  # False
 print(isPalindrome(1001))  # True
 print(isPalindrome(1000001))  # True
 print(isPalindrome(1234567890987654321))  # True
+print(isPalindrome(12345678987654321))  # True
+print(isPalindrome(123456789876543210))  # False
+print(isPalindrome(123456789876543211))  # True
+print(isPalindrome(1234567898765432100))  # False
+print(isPalindrome(1234567898765432101))  # True
+print(isPalindrome(12345678987654321011))  # False
