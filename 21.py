@@ -20,4 +20,8 @@ mergeTwoLists([1], [])
 # Output: [1]
 mergeTwoLists([1], [0])
 # Output: [0,1]
+mergeTwoLists([1,2,4], [1])
+# Output: [1,1,2,4]
+mergeTwoLists([1], [2])
+# Output: [1,2]
 
