@@ -1,4 +1,4 @@
-pick = 6
+pick = 1
 
 def guess(num):
     if num > pick:
@@ -24,3 +24,5 @@ def guessNumber(n):
 print(guessNumber(10))  # Output: 6
 # Test case guessNumber
 print(guessNumber(1))   # Output: 1
+# Test case guessNumber
+print(guessNumber(2))   # Output: 1
