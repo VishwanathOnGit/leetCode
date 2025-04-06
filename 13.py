@@ -34,3 +34,6 @@ if __name__ == "__main__":
 
     s = "MCMXCIV"
     print(romanToInt(s))  # Output: 1994
+
+    s = "MMMCMXCIX"
+    print(romanToInt(s))  # Output: 3999
