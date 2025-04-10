@@ -47,7 +47,7 @@ class LinkedList:
             self.head = None
             self.tail = None
         
-        return temp.value
+        return temp
     
     def prepend(self, value):
         new_node = Node(value)
@@ -82,8 +82,14 @@ class LinkedList:
         temp = self.head
         for _ in range(index):
             temp = temp.next 
-        return temp.value
+        return temp
 
+    def set_value(self, index, value):
+        temp = self.get(index)
+        if temp:
+            temp.value = value
+            return True
+        return False
 
 
     
@@ -95,5 +101,6 @@ my_linked_list.pop()
 my_linked_list.prepend(23)
 my_linked_list.prepend(22)
 my_linked_list.pop_first()
+my_linked_list.set_value(3, 6666)
 my_linked_list.print_list()
-print(my_linked_list.get(3))
+# print(my_linked_list.get(3))
